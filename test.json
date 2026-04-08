@@ -1,0 +1,565 @@
+{
+  "MSH": {
+    "encodingChars": "^~\\&",
+    "sendingApp": "DF5x",
+    "sendingFacility": "Dymind",
+    "receivingApp": "",
+    "receivingFacility": "",
+    "timestamp": "20260408110405",
+    "security": "",
+    "messageType": "ORU^R01",
+    "messageControlId": "20260408_101314_016",
+    "processingId": "P",
+    "versionId": "2.3.1"
+  },
+  "PID": {
+    "setId": "1",
+    "patientId": "",
+    "patientName": "^Narcisa",
+    "gender": "Mujer"
+  },
+  "PV1": {
+    "setId": "1"
+  },
+  "OBR": {
+    "setId": "1",
+    "fillerOrderNumber": "1277",
+    "universalServiceId": "01001^Automated Count^99MRC",
+    "observationDateTime": "20260408101314"
+  },
+  "OBX": [
+    {
+      "setId": "1",
+      "valueType": "IS",
+      "observationIdentifier": {
+        "code": "02001",
+        "text": "Take Mode",
+        "codingSystem": "99MRC"
+      },
+      "value": "O",
+      "units": "",
+      "referenceRange": "",
+      "abnormalFlags": "",
+      "status": "F"
+    },
+    {
+      "setId": "2",
+      "valueType": "IS",
+      "observationIdentifier": {
+        "code": "02002",
+        "text": "Blood Mode",
+        "codingSystem": "99MRC"
+      },
+      "value": "W",
+      "units": "",
+      "referenceRange": "",
+      "abnormalFlags": "",
+      "status": "F"
+    },
+    {
+      "setId": "3",
+      "valueType": "IS",
+      "observationIdentifier": {
+        "code": "02003",
+        "text": "Test Mode",
+        "codingSystem": "99MRC"
+      },
+      "value": "CBC+DIFF",
+      "units": "",
+      "referenceRange": "",
+      "abnormalFlags": "",
+      "status": "F"
+    },
+    {
+      "setId": "4",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "30525-0",
+        "text": "Age",
+        "codingSystem": "LN"
+      },
+      "value": "69",
+      "units": "yr",
+      "referenceRange": "",
+      "abnormalFlags": "",
+      "status": "F"
+    },
+    {
+      "setId": "5",
+      "valueType": "IS",
+      "observationIdentifier": {
+        "code": "09001",
+        "text": "Remark",
+        "codingSystem": "99MRC"
+      },
+      "value": "",
+      "units": "",
+      "referenceRange": "",
+      "abnormalFlags": "",
+      "status": "F"
+    },
+    {
+      "setId": "6",
+      "valueType": "IS",
+      "observationIdentifier": {
+        "code": "03001",
+        "text": "Ref Group",
+        "codingSystem": "99MRC"
+      },
+      "value": "Mujer",
+      "units": "",
+      "referenceRange": "",
+      "abnormalFlags": "",
+      "status": "F"
+    },
+    {
+      "setId": "7",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "6690-2",
+        "text": "WBC",
+        "codingSystem": "LN"
+      },
+      "value": "10,45",
+      "units": "10*3/uL",
+      "referenceRange": "3,50-9,50",
+      "abnormalFlags": "H~A",
+      "status": "F"
+    },
+    {
+      "setId": "8",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "770-8",
+        "text": "NEU%",
+        "codingSystem": "LN"
+      },
+      "value": "81,8",
+      "units": "%",
+      "referenceRange": "40,0-75,0",
+      "abnormalFlags": "H~A",
+      "status": "F"
+    },
+    {
+      "setId": "9",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "736-9",
+        "text": "LYM%",
+        "codingSystem": "LN"
+      },
+      "value": "14,2",
+      "units": "%",
+      "referenceRange": "20,0-50,0",
+      "abnormalFlags": "L~A",
+      "status": "F"
+    },
+    {
+      "setId": "10",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "5905-5",
+        "text": "MON%",
+        "codingSystem": "LN"
+      },
+      "value": "3,7",
+      "units": "%",
+      "referenceRange": "3,0-10,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "11",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "713-8",
+        "text": "EOS%",
+        "codingSystem": "LN"
+      },
+      "value": "0,2",
+      "units": "%",
+      "referenceRange": "0,4-8,0",
+      "abnormalFlags": "L~A",
+      "status": "F"
+    },
+    {
+      "setId": "12",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "706-2",
+        "text": "BAS%",
+        "codingSystem": "LN"
+      },
+      "value": "0,1",
+      "units": "%",
+      "referenceRange": "0,0-1,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "13",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "751-8",
+        "text": "NEU#",
+        "codingSystem": "LN"
+      },
+      "value": "8,55",
+      "units": "10*3/uL",
+      "referenceRange": "1,80-6,30",
+      "abnormalFlags": "H~A",
+      "status": "F"
+    },
+    {
+      "setId": "14",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "731-0",
+        "text": "LYM#",
+        "codingSystem": "LN"
+      },
+      "value": "1,48",
+      "units": "10*3/uL",
+      "referenceRange": "1,10-3,20",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "15",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "742-7",
+        "text": "MON#",
+        "codingSystem": "LN"
+      },
+      "value": "0,39",
+      "units": "10*3/uL",
+      "referenceRange": "0,10-0,60",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "16",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "711-2",
+        "text": "EOS#",
+        "codingSystem": "LN"
+      },
+      "value": "0,02",
+      "units": "10*3/uL",
+      "referenceRange": "0,02-0,52",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "17",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "704-7",
+        "text": "BAS#",
+        "codingSystem": "LN"
+      },
+      "value": "0,01",
+      "units": "10*3/uL",
+      "referenceRange": "0,00-0,06",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "18",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "26477-0",
+        "text": "*ALY#",
+        "codingSystem": "LN"
+      },
+      "value": "0,00",
+      "units": "10*3/uL",
+      "referenceRange": "0,00-0,20",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "19",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "13046-8",
+        "text": "*ALY%",
+        "codingSystem": "LN"
+      },
+      "value": "0,0",
+      "units": "%",
+      "referenceRange": "0,0-2,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "20",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "11001",
+        "text": "*LIC#",
+        "codingSystem": "99MRC"
+      },
+      "value": "0,13",
+      "units": "10*3/uL",
+      "referenceRange": "0,00-0,20",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "21",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "11002",
+        "text": "*LIC%",
+        "codingSystem": "99MRC"
+      },
+      "value": "1,3",
+      "units": "%",
+      "referenceRange": "0,0-2,5",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "22",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "11009",
+        "text": "*NRBC#",
+        "codingSystem": "99MRC"
+      },
+      "value": "0,000",
+      "units": "10*9/L",
+      "referenceRange": "0,000-9999,999",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "23",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "11010",
+        "text": "*NRBC%",
+        "codingSystem": "99MRC"
+      },
+      "value": "0,00",
+      "units": "%",
+      "referenceRange": "0,00-9999,99",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "24",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "789-8",
+        "text": "RBC",
+        "codingSystem": "LN"
+      },
+      "value": "5,23",
+      "units": "10*6/uL",
+      "referenceRange": "3,80-5,10",
+      "abnormalFlags": "H~A",
+      "status": "F"
+    },
+    {
+      "setId": "25",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "718-7",
+        "text": "HGB",
+        "codingSystem": "LN"
+      },
+      "value": "15,7",
+      "units": "g/dL",
+      "referenceRange": "11,5-15,0",
+      "abnormalFlags": "H~A",
+      "status": "F"
+    },
+    {
+      "setId": "26",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "4544-3",
+        "text": "HCT",
+        "codingSystem": "LN"
+      },
+      "value": "45,5",
+      "units": "%",
+      "referenceRange": "35,0-45,0",
+      "abnormalFlags": "H~A",
+      "status": "F"
+    },
+    {
+      "setId": "27",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "787-2",
+        "text": "MCV",
+        "codingSystem": "LN"
+      },
+      "value": "87,0",
+      "units": "fL",
+      "referenceRange": "82,0-100,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "28",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "785-6",
+        "text": "MCH",
+        "codingSystem": "LN"
+      },
+      "value": "30,0",
+      "units": "pg",
+      "referenceRange": "27,0-34,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "29",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "786-4",
+        "text": "MCHC",
+        "codingSystem": "LN"
+      },
+      "value": "34,5",
+      "units": "g/dL",
+      "referenceRange": "31,6-35,4",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "30",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "788-0",
+        "text": "RDW-CV",
+        "codingSystem": "LN"
+      },
+      "value": "13,9",
+      "units": "%",
+      "referenceRange": "11,0-16,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "31",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "21000-5",
+        "text": "RDW-SD",
+        "codingSystem": "LN"
+      },
+      "value": "44,0",
+      "units": "fL",
+      "referenceRange": "35,0-56,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "32",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "777-3",
+        "text": "PLT",
+        "codingSystem": "LN"
+      },
+      "value": "240",
+      "units": "10*3/uL",
+      "referenceRange": "125-350",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "33",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "32623-1",
+        "text": "MPV",
+        "codingSystem": "LN"
+      },
+      "value": "8,9",
+      "units": "fL",
+      "referenceRange": "6,5-12,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "34",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "32207-3",
+        "text": "PDW",
+        "codingSystem": "LN"
+      },
+      "value": "11,2",
+      "units": "fL",
+      "referenceRange": "9,0-17,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "35",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "11003",
+        "text": "PCT",
+        "codingSystem": "99MRC"
+      },
+      "value": "0,215",
+      "units": "%",
+      "referenceRange": "0,108-0,282",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "36",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "48386-7",
+        "text": "P-LCR",
+        "codingSystem": "LN"
+      },
+      "value": "27,7",
+      "units": "%",
+      "referenceRange": "11,0-45,0",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "37",
+      "valueType": "NM",
+      "observationIdentifier": {
+        "code": "34167-7",
+        "text": "P-LCC",
+        "codingSystem": "LN"
+      },
+      "value": "67",
+      "units": "10*9/L",
+      "referenceRange": "30-90",
+      "abnormalFlags": "~N",
+      "status": "F"
+    },
+    {
+      "setId": "38",
+      "valueType": "IS",
+      "observationIdentifier": {
+        "code": "34165-1",
+        "text": "Imm Granulocytes?",
+        "codingSystem": "LN"
+      },
+      "value": "T",
+      "units": "",
+      "referenceRange": "",
+      "abnormalFlags": "",
+      "status": "F"
+    }
+  ]
+}
+cvY2KFdkRo5vDP
